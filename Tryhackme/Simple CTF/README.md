@@ -50,7 +50,7 @@ Looking around, we found the website is `CMS made simple`.
 
 ![CMS](https://user-images.githubusercontent.com/101599690/215182559-ae148fb7-2604-49d2-962d-49ef80e011f6.png)
 
-Now we need to know the version of the website, to know exactly which CVE we are going to use. The website shows us the version at the bottom of the webpage, which is `2.2.8`.
+**Now we need to know the version of the website, to know exactly which CVE we are going to use. The website shows us the version at the bottom of the webpage, which is `2.2.8`.**
 
 ![simple](https://user-images.githubusercontent.com/101599690/215182740-d12c48ae-bea3-4014-a111-b0d3534f3025.png)
 
