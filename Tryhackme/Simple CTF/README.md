@@ -90,11 +90,11 @@ I found the password is `secret`. Now, we have the username and password. We can
 
 **6. Where can you login with the details obtained?**
 
-ssh
+`ssh`
 
 **7. What's the user flag?**
 
-G00d j0b, keep up!
+`G00d j0b, keep up!`
 
 **8. Is there any other user in the home directory? What's its name?**
 
