@@ -1,4 +1,4 @@
-** 1. How many services are running under port 1000? ** \n
+** 1. How many services are running under port 1000? ******
 Let's start with enumerationg the machine using NMAP and save the result to txt file:
 `nmap -sS -sV -A <IP> -oN nmap.txt`
 ```
