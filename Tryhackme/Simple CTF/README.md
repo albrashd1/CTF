@@ -34,7 +34,7 @@ We can see there are three open ports and two of them are under 1000.
 
 **2. What is running on the higher port?**
 
-ssh is running on port 2222
+`ssh is running on port 2222`
 
 **3.What's the CVE you're using against the application?**
 
@@ -60,7 +60,7 @@ Looking around, we found the website is `CMS made simple`.
 
 ![Screenshot 2023-01-27 150318](https://user-images.githubusercontent.com/101599690/215186517-fed48b5f-cf27-4a08-bfa9-312955df29b8.png)
 
-Now we know the vunlerability we are going to use, and searching in `cve.mitre.org` we know the CVE-ID sis `CVE-2019-9053`. 
+Now we know the vunlerability we are going to use, and searching in `cve.mitre.org` we know the CVE-ID is `CVE-2019-9053`. 
 
 **3. What's the CVE you're using against the application?**
 
