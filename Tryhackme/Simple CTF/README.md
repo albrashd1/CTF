@@ -67,3 +67,6 @@ Now we know the vunlerability we are going to use, and searching in `cve.mitre.o
 **4. To what kind of vulnerability is the application vulnerable?**
 
 `SQLI`
+
+**5. What's the password?**
+
