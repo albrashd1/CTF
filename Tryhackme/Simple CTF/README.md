@@ -75,6 +75,7 @@ Searching about this CVE, I found there is a script to get the username and hash
 
 Let's use the script on the simple webpage. `python3 exploit.py -u http://IP/simple/`.
 
-![exploit py](https://user-images.githubusercontent.com/101599690/215186185-e437e02e-7b0e-4be2-99cd-64de718d3266.png)
+![ssss](https://user-images.githubusercontent.com/101599690/215186636-8ea7ad0d-3e86-44cb-9d14-46958e466b3f.png)
+
 
 
