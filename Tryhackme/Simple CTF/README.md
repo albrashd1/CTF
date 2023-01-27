@@ -57,6 +57,7 @@ Looking around, we found the website is `CMS made simple`.
 **Using searchploit to find out the vulnerability of this webpage version.** 
 
 `searchploit CMS made simple 2.2.8`
+
 ![Screenshot 2023-01-27 150318](https://user-images.githubusercontent.com/101599690/215186517-fed48b5f-cf27-4a08-bfa9-312955df29b8.png)
 
 Now we know the vunlerability we are going to use, and searching in `cve.mitre.org` we know the CVE-ID sis `CVE-2019-9053`. 
@@ -78,4 +79,4 @@ Let's use the script on the simple webpage. `python3 exploit.py -u http://IP/sim
 ![ssss](https://user-images.githubusercontent.com/101599690/215186636-8ea7ad0d-3e86-44cb-9d14-46958e466b3f.png)
 
 
-
+The script gives us the a salt password and hash password. We can crack the paswword using the hash and salt using hashcat. Storing the `hash:salt` using this foramt to a text file and cun `hashcat -a 0 -m 20 password.txt password.txt /usr/share/wordlists/rockyou.txt`. We specify the hash is of type md5 `-a 0` and choosing the format `20 = md5($salt.$pass)`. 
