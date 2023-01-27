@@ -33,6 +33,7 @@ We can see there are three open ports and two of them are under 1000.
 
 
 **2. What is running on the higher port? **
+
 ssh is running on port 2222
 
 
