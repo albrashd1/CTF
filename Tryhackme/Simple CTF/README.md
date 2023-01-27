@@ -39,3 +39,4 @@ ssh is running on port 2222
 **3.What's the CVE you're using against the application?**
 
 Now, we need to enumerate a little bit to find out our CVE to use. Our NMAP showing us that there is an apache server is running on port 80, let's go and open it using our IP. 
+![apache](https://user-images.githubusercontent.com/101599690/215180668-d4de93cd-3399-4971-b32d-f9c17a2e0800.png)
