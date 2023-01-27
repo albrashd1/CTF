@@ -114,4 +114,4 @@ so we can run a shell using `sudo vim -c ':!/bin/sh'` and escalate our privilege
 
 ![root](https://user-images.githubusercontent.com/101599690/215199506-95136a6a-76d1-469c-8232-baf08e1265e8.png)
 
-
+Lets do `ls /root` and then read the flag of the user `cat /root/root.txt` and get the flag `W3ll d0n3. You made it!`
