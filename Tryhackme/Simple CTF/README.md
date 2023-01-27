@@ -34,5 +34,5 @@ We can see there are three open ports and two of them are under 1000.
 **2. What is running on the higher port? **
 ssh is running on port 2222
 
-**3. What's the CVE you're using against the application? **
+
 Now, we need to enumerate a little bit to find out our CVE to use. Our NMAP showing us that there is an apache server is running on port 80, let's go and open it using our IP. 
