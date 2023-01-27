@@ -43,4 +43,5 @@ Now, we need to enumerate a little bit to find out our CVE to use. Our NMAP show
 
 There is nothing really intersting here, it just a defaul apache server webpage. Let's try find if there are any hidden directories using dirb. 
 `dirb http://IP /usr/share/dirb/wordlists/common.txt`
+
 We found there is a directory called `simple`, let's look at it. Go to `http://IP/simple/`.
