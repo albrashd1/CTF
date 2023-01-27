@@ -54,5 +54,12 @@ Looking around, we found the website is `CMS made simple`.
 
 ![simple](https://user-images.githubusercontent.com/101599690/215182740-d12c48ae-bea3-4014-a111-b0d3534f3025.png)
 
+**Using searchploit to find out the vulnerability of this webpage version.** 
+
+`searchploit CMS made simple 2.2.8`
+
+![searchploit](https://user-images.githubusercontent.com/101599690/215183382-e8a5b1ff-13d6-45a4-8fca-83705f51c8d3.png)
+
+Now we know the vunlerability we are going to use, and searching in `cve.mitre.org` we know the CVE-ID sis `CVE-2019-9053`. 
 
 
