@@ -71,4 +71,9 @@ Now we know the vunlerability we are going to use, and searching in `cve.mitre.o
 **5. What's the password?**
 
 Searching about this CVE, I found there is a script to get the username and hash password. I get the script from `https://github.com/e-renna/CVE-2019-9053`.
-sss
+
+Let's use the script on the simple webpage. `python3 exploit.py -u http://IP/simple/`.
+
+![exploit py](https://user-images.githubusercontent.com/101599690/215186185-e437e02e-7b0e-4be2-99cd-64de718d3266.png)
+
+
