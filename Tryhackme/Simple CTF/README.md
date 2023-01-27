@@ -1,7 +1,7 @@
 **1. How many services are running under port 1000? **
 Let's start with enumerationg the machine using NMAP and save the result to txt file:
-'nmap -sS -sV -A <IP> -oN nmap.txt'
-'''
+`nmap -sS -sV -A <IP> -oN nmap.txt`
+```
 snip ...
 PORT     STATE SERVICE VERSION
 21/tcp   open  ftp     vsftpd 3.0.3
@@ -27,7 +27,7 @@ PORT     STATE SERVICE VERSION
 |_http-server-header: Apache/2.4.18 (Ubuntu)
 2222/tcp open  ssh     OpenSSH 7.2p2 Ubuntu 4ubuntu2.8 (Ubuntu Linux; protocol 2.0)
 snip ...
-'''
+```
 We can see there are three open ports and two of them are under 1000. 
 
 
