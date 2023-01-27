@@ -79,4 +79,39 @@ Let's use the script on the simple webpage. `python3 exploit.py -u http://IP/sim
 ![ssss](https://user-images.githubusercontent.com/101599690/215186636-8ea7ad0d-3e86-44cb-9d14-46958e466b3f.png)
 
 
-The script gives us the a salt password and hash password. We can crack the paswword using the hash and salt using hashcat. Storing the `hash:salt` using this foramt to a text file and cun `hashcat -a 0 -m 20 password.txt password.txt /usr/share/wordlists/rockyou.txt`. We specify the hash is of type md5 `-a 0` and choosing the format `20 = md5($salt.$pass)`. 
+The script gives us the a salt password and hash password. We can crack the paswword using the hash and salt using hashcat. Storing the `hash:salt` using this foramt to a text file and cun `hashcat -a 0 -m 20 password.txt password.txt /usr/share/wordlists/rockyou.txt`. We specify the hash is of type md5 `-a 0` and choosing the format `20 = md5($salt.$pass)` by `-m 20`. 
+
+![hashcat](https://user-images.githubusercontent.com/101599690/215195389-921d8ac1-4865-43a4-bca1-73e55507343b.png)
+
+
+I found the password is `secret`. Now, we have the username and password. We can try to login using ssh service `ssh mitch@IP -p2222`. 
+
+![ssh](https://user-images.githubusercontent.com/101599690/215196554-1dd9c106-23d4-423a-8c7c-922f413fbb3d.png)
+
+**6. Where can you login with the details obtained?**
+
+ssh
+
+**7. What's the user flag?**
+
+G00d j0b, keep up!
+
+**8. Is there any other user in the home directory? What's its name?**
+
+We can enumerate the machine and go to `/home` to see and get the other username which is `sunbath`.
+
+**9. What can you leverage to spawn a privileged shell?**
+
+To see our privilege we can do `sudo -l` and find that we have `vim` 
+
+![sudo -l](https://user-images.githubusercontent.com/101599690/215198408-0bfed614-095f-4abe-bfc0-ce34f919191c.png)
+
+To see what we can do with `vim` command, `https://gtfobins.github.io/` is a good source. 
+
+![vim](https://user-images.githubusercontent.com/101599690/215199003-79303d82-0ab9-410a-96f9-42778a760d5c.png)
+
+so we can run a shell using `sudo vim -c ':!/bin/sh'` and escalate our privileges. 
+
+![root](https://user-images.githubusercontent.com/101599690/215199506-95136a6a-76d1-469c-8232-baf08e1265e8.png)
+
+
