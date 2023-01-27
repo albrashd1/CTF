@@ -70,3 +70,5 @@ Now we know the vunlerability we are going to use, and searching in `cve.mitre.o
 
 **5. What's the password?**
 
+Searching about this CVE, I found there is a script to get the username and hash password. I get the script from `https://github.com/e-renna/CVE-2019-9053`.
+sss
