@@ -90,6 +90,6 @@ Non-debugging symbols:
 
 We can see that the `win()` is in 0x40129e. 
 
-Giving this address without (0x) to the program will print the flag. 
+The program will print the flag by giving this address without (0x). 
 
-![[picker.png]]
+![picker](https://github.com/albrashd1/CTF/assets/101599690/f6be304e-3eff-49ff-bdfd-aa470f7f408f)
